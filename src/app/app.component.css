@@ -1,0 +1,12 @@
+.role--brown{
+    background-color: brown;   
+}
+.role--green{
+    background-color: green;
+}
+.role{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
