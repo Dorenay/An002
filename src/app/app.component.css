@@ -1,15 +1,17 @@
-.role--brown{
-    background-color: brown;   
+.champions-list{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
 }
-.role--green{
-    background-color: green;
+.champions-list li{
+    flex: 1 1 10%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+
 }
-.role{
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
+.champions-list li h4{
     text-transform: uppercase;
-}
-.champions-list img{
-    height: 40px;
 }

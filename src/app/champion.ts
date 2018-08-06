@@ -26,6 +26,8 @@ export class Champion {
     constructor (champName:string, champRole: string, champHistory?: string){
         this._role = champRole;
         this._name = champName;
-        this._history = champHistory;
+        if (champHistory != undefined){
+            this._history = champHistory;
+        }
     };
 }

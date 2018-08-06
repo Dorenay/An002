@@ -3,15 +3,7 @@
 <h1>There are some champions history</h1>
 <ul class="champions-list">
   <li *ngFor = 'let champ of champs'>
-      {{champ.name}}
-    <ul>
-      <li [ngClass] = 'setClass(champ.role)' class="role">
-      <div class="champion-role">{{champ.role}}
-      <img src='/assets/img/{{champ.role}}.png' alt="">
-      </div>
-    </li>
-      <li>{{champ.history}}</li>
-    </ul>
+      <app-champion-info [thisName] = champ.name [thisHistory] = champ.history [thisRole]= champ.role></app-champion-info>
   </li>
 </ul>
 

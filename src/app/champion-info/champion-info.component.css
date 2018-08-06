@@ -1,0 +1,33 @@
+.role--top{
+    background-color: brown;
+}
+.role--jungle{
+    background-color: green;
+    color: darkslateblue;
+}
+.role--ADC{
+    background-color: rgb(0, 23, 128);
+    color: crimson;
+}
+.role--support{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+.role--middle{
+    background-color: rgb(31, 179, 147);
+}
+.role--ADC h4{
+    color: whitesmoke;
+}
+.role{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+img.champion-role{
+    height: 30px;
+}
+.big-box{
+    padding: 15px;
+}
