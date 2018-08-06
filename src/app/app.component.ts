@@ -9,6 +9,7 @@ import { CHAMPIONS } from './champions';
 })
 export class AppComponent {
   champs = CHAMPIONS;
+  
   setClass(value: string){
     switch(value) { 
       case 'jungle': { 
